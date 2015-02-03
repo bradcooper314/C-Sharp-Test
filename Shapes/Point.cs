@@ -4,7 +4,8 @@ namespace Shapes
 {
 	public class Point
 	{
-		private int _x, _y;
+		public int _x  {get; set;};
+		public int _y  {get; set;};
 
 		public Point ()
 		{
@@ -16,16 +17,6 @@ namespace Shapes
 		{
 			this.x = x;
 			this.y = y;
-		}
-		
-		public int x {
-			set { this._x = value; }
-			get { return this._x; }
-		}
-		
-		public int y {
-			set { this._y = value; }
-			get { return this._y; }
 		}
 	}
 }
