@@ -36,5 +36,6 @@
     <Compile Include="Shape.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="MyPoint.cs" />
+    <Compile Include="TestShapes.cs" />
   </ItemGroup>
 </Project>
